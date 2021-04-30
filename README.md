@@ -42,7 +42,7 @@ EOF
 
 This has to be done for every control plane node in the Kubernetes cluster that you want to be checked.
 
-Next, copy the config `./UserParameters/kube_cp.conf` into the `zabbix-agent.d` directory and make sure that the UserParameters file, as well as the kubeconfig have the right owner and mode:
+Next, copy the config `./UserParameters/kube_cp.conf` into the `zabbix-agent2.d` directory and make sure that the UserParameters file, as well as the kubeconfig have the right owner and mode:
 
 ```bash
 sudo chown zabbix. /etc/zabbix/kubeconfig
@@ -60,7 +60,7 @@ No, we did not forget that a Kubernetes cluster usually consists of more than ju
 
 For worker nodes the whole kubeconfig part can be skipped.
 
-That means you can just copy the config `./UserParameters/kube_wrk.conf` into the `zabbix-agent.d` directory and make sure that the UserParameters file has the right owner and mode:
+That means you can just copy the config `./UserParameters/kube_wrk.conf` into the `zabbix-agent2.d` directory and make sure that the UserParameters file has the right owner and mode:
 
 ```bash
 sudo chown zabbix. /etc/zabbix/zabbix_agent2.d/k8s.conf
