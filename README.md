@@ -1,0 +1,1 @@
+# zabbix_kubernetes_checks
