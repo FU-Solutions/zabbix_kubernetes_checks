@@ -1,4 +1,4 @@
-![ZABBIX meets kubernetes](https://www.fu-solutions.de/wp-content/uploads/2021/05/zabbix-kubernetes.png)
+![ZABBIX meets kubernetes](images/zabbix-kubernetes.png)
 
 # ZABBIX Kubernetes checks
 The ZABBIX Kubernetes checks provide UserParameters and keys to monitor a multitude of Kubernetes components.
